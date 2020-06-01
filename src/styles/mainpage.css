@@ -15,7 +15,8 @@ body{
     
     min-height:100vh;
    
-    background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('../images/background2.jpg') center no-repeat;
+    background:#0288D1
+    , url('../images/background2.jpg') center no-repeat;
     background-size: cover;
     
     padding: 10px;
