@@ -11,5 +11,5 @@
  
 ## How to Run
 
-  In the app folder open cmd and run the command ```npm install``  ( This command will install all necesery packages )
-  After installing run 'npm start'
+  In the app folder open cmd and run the command ```npm install```  ( This command will install all necesery packages )
+  After installing run ```npm start```
