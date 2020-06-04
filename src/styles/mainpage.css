@@ -15,7 +15,7 @@ body{
     
     min-height:100vh;
    
-    background:linear-gradient(rgba(22, 38, 250, 0.4), rgba(35, 50, 252, 0.4) ), url('../images/background2.jpg') center no-repeat;
+    background:linear-gradient(rgba(1, 11, 156, 0.5), rgba(2, 11, 129, 0.582) ), url('../images/background2.jpg') center no-repeat;
     background-size: cover;
     
     padding: 10px;
@@ -277,7 +277,7 @@ width: 500px;
 }
 .contactsSide
 {
-    height: 30vh;
+    height: 17vh;
 }
 .contacts
 {
