@@ -15,7 +15,7 @@ body{
     
     min-height:100vh;
    
-    background:linear-gradient(rgba(1, 11, 156, 0.5), rgba(2, 11, 129, 0.582) ), url('../images/background2.jpg') center no-repeat;
+    background:linear-gradient(rgba(40, 46, 136, 0.5), rgba(34, 40, 124, 0.582) ), url('../images/background2.jpg') center no-repeat;
     background-size: cover;
     
     padding: 10px;
@@ -43,9 +43,10 @@ body{
    
     width: 300px;
     height:300px;
-    background: url('../images/image.png') center no-repeat;
+    background: url('../images/user_photo.png') center no-repeat;
     background-size: cover;
     animation: image-anim 2s;
+    
 }
 .about_me 
 {
@@ -73,6 +74,7 @@ width: 500px;
     margin-top: 20px;
     font-family: 'Raleway', sans-serif;
     letter-spacing: 1.5px;
+    font-size: 18px;
 }
 
 .about_me .text span
