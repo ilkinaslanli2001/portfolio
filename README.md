@@ -1,7 +1,7 @@
 # ReactJs-Portfolio
 ## Descripion
 
-  It's a portfolio app which you can download and change how you want. App consists of 3 parts: 
+  It's a portfolio app which you can download and change how you want. App consists of 4 parts: 
   Intro  
   Skills 
   Projects
