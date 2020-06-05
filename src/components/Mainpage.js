@@ -18,7 +18,7 @@ class Mainpage extends React.Component
 
         return(
             <div className="container">
-                <a href="#" className="resume_link">Donwload CV</a>
+                <a href="https://drive.google.com/file/d/1GDa-DRFufO9dXOwQvlGfhN5hQzCv51Qa/view?usp=sharing" download className="resume_link">Donwload CV</a>
                
                 <Intro></Intro>
                 <Skills></Skills>

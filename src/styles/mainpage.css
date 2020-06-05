@@ -34,6 +34,12 @@ body{
     text-decoration: none;
 
 }
+.resume_link:hover
+{
+    transition: 1s ease all;
+    color: #4940da;
+
+}
 .my_information
 {
    padding-top: 10px;
