@@ -6,8 +6,8 @@
   Skills 
   Projects
   Contacts
- 
- Each part are in defferent js files that's why it will be easy to understand the code
+ Moreover there is a fixed link for your CV on the bottom right edge of the screen.
+ Each part are in defferent js files that's why it will be easy to understand the code.
  
 ## How to Run
 
