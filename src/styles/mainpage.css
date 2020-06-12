@@ -162,7 +162,7 @@ width: 500px;
     position: absolute;
     object-fit: cover;
     width: inherit;
-   
+    display: block;
 }
 
 
