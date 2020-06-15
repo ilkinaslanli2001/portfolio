@@ -22,6 +22,7 @@ class Skills extends React.Component
                     <img src="/projectImages/be_icon.png"></img><br></br>
                     <label>BackEnd</label>
                     <ul>
+                        <li>Python(OOP)</li>
                         <li>Django</li>
                        
                     </ul>
