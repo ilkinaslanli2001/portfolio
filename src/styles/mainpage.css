@@ -32,11 +32,11 @@ body{
     z-index: 4;
     color: #212121;
     text-decoration: none;
-
+    transition: 1s ease all;
 }
 .resume_link:hover
 {
-    transition: 1s ease all;
+    
     color: #4940da;
 
 }
@@ -163,14 +163,14 @@ width: 500px;
     object-fit: cover;
     width: inherit;
     display: block;
+    opacity: 1;
+    transition: 0.5s ease all;
 }
 
 
 .project:hover .project_image
 {
-   
-    animation: project-image 1.5s;
-    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
 .project .desc
@@ -336,17 +336,7 @@ width: 500px;
         opacity: 1;
     }
 }
-@keyframes project-image
-{
-    from 
-    {
-        opacity: 1;
-    }
-    to
-    {
-        opacity: 0;
-    }
-}
+
 @media only screen and (max-width: 720px) {
     .about_me
     {
