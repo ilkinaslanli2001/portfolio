@@ -6,6 +6,20 @@ class Projects extends React.Component
         return(
             <div className="project_side">
                 <div id="projects" className="projects">
+                <div className="project">
+                    <img src={'../projectImages/IlkMov-new_movies.png'} className="project_image" />
+                        <p className = "desc">
+                            This is a React+Django(Rest) project for watching movies
+                            ( To view all functions go to the project's repository)
+                            </p>
+                        <a target="__blank" className="button" href="https://github.com/ilkinaslanli2001/IlkMov-Django-ReactJs">
+                            <span className="button__line button__line--top"></span>
+                            <span className="button__line button__line--right"></span>
+                            <span className="button__line button__line--bottom"></span>
+                            <span className="button__line button__line--left"></span>
+                            IlkMov
+                            </a>
+                        </div>
                     <div className="project">
                     <img src={'../projectImages/tapAzAdder_image.jpg'} className="project_image" />
                         <p className = "desc">
