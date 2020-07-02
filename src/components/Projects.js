@@ -7,7 +7,8 @@ class Projects extends React.Component
             <div className="project_side">
                 <div id="projects" className="projects">
                 <div className="project">
-                    <img src={'../projectImages/IlkMov-new_movies.png'} className="project_image" />
+                    {/* <img src={'../projectImages/IlkMov-new_movies.png'} className="project_image" /> */}
+                    <div className = "project_image" style={{backgroundImage:"url('../projectImages/IlkMov-new_movies.png')"}}></div>
                         <p className = "desc">
                             This is a React+Django(Rest) project for watching movies
                             ( To view all functions go to the project's repository)

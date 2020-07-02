@@ -127,7 +127,7 @@ width: 500px;
     margin-top: 30px;
     max-width: 1200px;
     min-height: 90vh;
-
+    text-align: center;
     border-radius: 3px;
     padding: 10px;
 }
@@ -143,8 +143,8 @@ width: 500px;
 .project
 {
     
-    width: 280px;
-    height: 300px;
+    width: 380px;
+    height:220px;
     background-color: #F5F5F5;
     border-radius: 3px;
 
@@ -158,13 +158,17 @@ width: 500px;
 }
 .project .project_image
 {
-    height: 260px;
+
     position: absolute;
-    object-fit: cover;
+    /* object-fit: cover; */
     width: inherit;
+    height: inherit ;
     display: block;
     opacity: 1;
     transition: 0.5s ease all;
+    background-position: no-repeat;
+    background-size: cover;
+
 }
 
 
@@ -178,9 +182,10 @@ width: 500px;
     color:#212121;   
     z-index: 0;
     
-   padding: 10px;
-   height: 240px;
-   max-height: 240px;
+  
+   height: inherit;
+   padding: 6px;
+   max-height:208px;
    text-align: center;
    letter-spacing: 1px;
     
@@ -353,6 +358,6 @@ width: 500px;
     }
     .projects
     {
-        text-align: center;
+       
     }
   }
