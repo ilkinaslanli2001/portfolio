@@ -6,8 +6,24 @@ class Projects extends React.Component
         return(
             <div className="project_side">
                 <div id="projects" className="projects">
+                    <div className="project">
+                    
+                        <div className = "project_image" style={{backgroundImage:"url('../projectImages/seramikvip.png')"}}></div>
+                            <p className = "desc">
+                               Seramik-Vip.ru is my second freelance project which I made with ReactJs and Django.
+                               As a css framework I've used MaterializeCss(The website also has responsive design).
+                               It has his own admin panel where owner can add Categories, sub categories and projects.
+                                </p>
+                            <a target="__blank" className="button" href="https://www.seramik-vip.ru">
+                                <span className="button__line button__line--top"></span>
+                                <span className="button__line button__line--right"></span>
+                                <span className="button__line button__line--bottom"></span>
+                                <span className="button__line button__line--left"></span>
+                                Seramik-Vip.ru
+                                </a>
+                        </div>
                 <div className="project">
-                    {/* <img src={'../projectImages/IlkMov-new_movies.png'} className="project_image" /> */}
+                  
                     <div className = "project_image" style={{backgroundImage:"url('../projectImages/IlkMov-new_movies.png')"}}></div>
                         <p className = "desc">
                             This is a React+Django(Rest) project for watching movies
