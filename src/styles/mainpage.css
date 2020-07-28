@@ -135,7 +135,7 @@ body{
    
     min-height: 90vh;
     display: flex;
-   
+    justify-content: center;
     flex-wrap: wrap;
     flex-direction: row;
     border-radius: 3px;
@@ -367,8 +367,5 @@ body{
     {
         font-size: 20px;
     }
-    .projects
-    {
-       justify-content: center;
-    }
+  
   }
