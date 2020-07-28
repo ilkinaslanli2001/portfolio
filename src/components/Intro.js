@@ -10,8 +10,7 @@ class Intro extends React.Component
              <div className="intro"> 
                 <div className="my_information">
 
-                    <div className="my_photo">
-                    </div>
+                <img className="my_photo" src='../projectImages/user_photo.png'></img>
 
                  <div className = "about_me">
 

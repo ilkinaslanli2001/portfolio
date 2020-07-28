@@ -5,7 +5,7 @@ class Skills extends React.Component
     render()
     {
         return(
-            <div className="skills_side">
+            <div className="skills_wrapper">
                 <div className="skills">
                     <div className="skill">
                         <img src="/projectImages/fe_icon.png"></img><br></br>

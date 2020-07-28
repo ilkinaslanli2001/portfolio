@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 *
 {
-    margin: 0 auto;
+    margin: 0 ;
     padding: 0;
 }
 body{
@@ -20,7 +20,8 @@ body{
     
     padding: 10px;
     
-   
+    display: flex;
+    justify-content: center;
 }
 .resume_link
 {
@@ -43,6 +44,7 @@ body{
 .my_information
 {
    padding-top: 10px;
+   text-align: center;
 }
 .my_photo
 {
@@ -56,9 +58,9 @@ body{
 }
 .about_me 
 {
-color:#F5F5F5;
-text-align: center;
-width: 500px;
+    color:#F5F5F5;
+    text-align: center;
+    width: 500px;
 }
 .about_me .name
 {
@@ -92,7 +94,7 @@ width: 500px;
 .skills
 {
     margin-top: 40px;
-    max-width: 1200px;
+  
     min-height: 190px;
     border-radius: 3px;
     font-size: 15px;
@@ -122,15 +124,23 @@ width: 500px;
    font-size: 20px;
    font-weight: 400;
 }
+.projects_wrapper
+{
+    display: flex;
+    justify-content: center;
+}
 .projects
 {
     margin-top: 30px;
-    max-width: 1200px;
+   
     min-height: 90vh;
-    text-align: center;
+    display: flex;
+   
+    flex-wrap: wrap;
+    flex-direction: row;
     border-radius: 3px;
-    padding: 10px;
 }
+
 .divider
 {
     display: block;
@@ -143,13 +153,16 @@ width: 500px;
 .project
 {
     
-    width: 380px;
+    width: 300px;
     height:220px;
     background-color: #F5F5F5;
     border-radius: 3px;
+    display: inline-block;
+}
+.project_wrapper
+{
+    padding: 10px;
 
-   display: inline-block;
-   margin: 10px;
 }
 .project:hover
 {
@@ -278,9 +291,10 @@ width: 500px;
     color:#121212 ;
     transition-delay: 0.5s;
 }
-.contactsSide
+.contacts_wrapper
 {
-    height: 17vh;
+    display: flex;
+    justify-content: center;
 }
 .contacts
 {
@@ -296,10 +310,7 @@ width: 500px;
     font-size: 12px;
 
 }
-*
-{
-    line-height: 150%;
-}
+
 .contacts .contact
 {
     margin: 10px;
@@ -358,6 +369,6 @@ width: 500px;
     }
     .projects
     {
-       
+       justify-content: center;
     }
   }

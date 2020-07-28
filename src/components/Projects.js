@@ -4,39 +4,46 @@ class Projects extends React.Component
 {
     render(){
         return(
-            <div className="project_wrapper">
+            <div className="projects_wrapper">
                 <div id="projects" className="projects">
+                    <div className="project_wrapper">
+                        <div className="project">
+                        
+                            <img src={'../projectImages/seramikvip.png'} className="project_image" />
+                                <p className = "desc">
+                                Seramik-Vip.ru is my second freelance project which I made with ReactJs and Django.
+                                As a css framework I've used MaterializeCss(The website also has responsive design).
+                                It has his own admin panel where owner can add Categories, sub categories and projects.
+                                    </p>
+                                <a target="__blank" className="button" href="https://www.seramik-vip.ru">
+                                    <span className="button__line button__line--top"></span>
+                                    <span className="button__line button__line--right"></span>
+                                    <span className="button__line button__line--bottom"></span>
+                                    <span className="button__line button__line--left"></span>
+                                    Seramik-Vip.ru
+                                    </a>
+                            </div>
+                        </div>
+                <div className="project_wrapper">
                     <div className="project">
-                    
-                        <div className = "project_image" style={{backgroundImage:"url('../projectImages/seramikvip.png')"}}></div>
+                        
+                        <div className = "project_image" style={{backgroundImage:"url('../projectImages/IlkMov-new_movies.png')"}}></div>
+                        <img src={'../projectImages/IlkMov-new_movies.png'} className="project_image" />
+
                             <p className = "desc">
-                               Seramik-Vip.ru is my second freelance project which I made with ReactJs and Django.
-                               As a css framework I've used MaterializeCss(The website also has responsive design).
-                               It has his own admin panel where owner can add Categories, sub categories and projects.
+                                This is a React+Django(Rest) project for watching movies
+                                ( To view all functions go to the project's repository)
                                 </p>
-                            <a target="__blank" className="button" href="https://www.seramik-vip.ru">
+                            <a target="__blank" className="button" href="https://github.com/ilkinaslanli2001/IlkMov-Django-ReactJs">
                                 <span className="button__line button__line--top"></span>
                                 <span className="button__line button__line--right"></span>
                                 <span className="button__line button__line--bottom"></span>
                                 <span className="button__line button__line--left"></span>
-                                Seramik-Vip.ru
+                                IlkMov
                                 </a>
-                        </div>
-                <div className="project">
-                  
-                    <div className = "project_image" style={{backgroundImage:"url('../projectImages/IlkMov-new_movies.png')"}}></div>
-                        <p className = "desc">
-                            This is a React+Django(Rest) project for watching movies
-                            ( To view all functions go to the project's repository)
-                            </p>
-                        <a target="__blank" className="button" href="https://github.com/ilkinaslanli2001/IlkMov-Django-ReactJs">
-                            <span className="button__line button__line--top"></span>
-                            <span className="button__line button__line--right"></span>
-                            <span className="button__line button__line--bottom"></span>
-                            <span className="button__line button__line--left"></span>
-                            IlkMov
-                            </a>
-                        </div>
+                            </div>
+                </div>
+                <div className="project_wrapper">
                     <div className="project">
                     <img src={'../projectImages/tapAzAdder_image.jpg'} className="project_image" />
                         <p className = "desc">
@@ -52,6 +59,9 @@ class Projects extends React.Component
                             TapAzAdder
                             </a>
                         </div>
+                        
+                    </div>
+                <div className="project_wrapper">
                     <div className="project">
                         <img src={'../projectImages/portfolioapp_image.png'} className="project_image" />
                            
@@ -69,6 +79,7 @@ class Projects extends React.Component
                         </a>
                     </div>
                 </div>
+            </div>
             </div>
         )
     }
