@@ -4,7 +4,7 @@ class Projects extends React.Component
 {
     render(){
         return(
-            <div className="project_side">
+            <div className="project_wrapper">
                 <div id="projects" className="projects">
                     <div className="project">
                     
